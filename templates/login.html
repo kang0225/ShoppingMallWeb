@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>쇼핑몰모아 로그인</title>
+            <link rel="stylesheet" href="/static/login.css">
+    </head>
+    <body id="body_">
+        <button id="menu">&#9776;</button>
+            <div id="side_menu">
+            <button id="close_menu" style="color: darkgray">X</button><br><br>
+            <img src="" alt="ㅋ" id="profile_img"><p id="before_login_text">로그인 후 이용해주세요.</p>
+                <br><br><div id="my_info" style="text-align: center">                        
+                    <button id="my_page">My Page</button>
+                    <button id="bookmark">내 찜</button>
+            </div>
+                <p id="categories">
+                <br><span style="color: darkgray">카테고리</span><br><br>
+                    <span class="looks" id="casual">Casual Style</span>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="street">Street Style</span><br>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="dandy">Dandy Style</span><br>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="sports">Sports Style</span><br>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="formal">Formal Style</span><br>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="vintage">Vintage Style</span><br>
+                    <hr id="hr_width80"><br>
+                    <span class="looks" id="homewear">Homewear Style</span><br>
+                    <hr id="hr_width80"><br>
+                </p>
+                <div id="extra_menu" style="text-align: center">
+                     <ul>
+                        <li id="line1">&#183;공지사항
+                        <li id="line1">&#183;이벤트
+                        <li id="line1">&#183;자유게시판
+                    </ul>
+                    <ul>
+                        <li id="line2">&#183;고객센터
+                        <li id="line2">&#183;소개
+                    </ul> 
+                </div>
+            </div>
+            <div style="text-align: center">
+                <p id="headline">쇼핑몰모아</p><br><br>
+            </div>
+        <hr>
+        <br><br><br>
+        <input id="id_" type="text" size="20" placehorder="ID" maxlength="20"
+            oninput="this.value = this.value.replace(/[^a-zA-Z0-9]/g, '')"><br>
+        <input id="pw_" type="password" size="20" placehorder="Password" maxlength="20"
+            oninput="this.value = this.value.replace(/[\uAC00-\uD7A3\s]/g, '')"><br>
+        <div style="text-align: center"><input type="checkbox"> 자동로그인 허용</div>
+        <div style="text-align: center"><br><br>
+            <button id="find_id">ID 찾기</button>
+            <button id="find_pw">PW 찾기</button>
+            <button id="register">회원가입</button>
+        </div>
+        <script src="/static/login.js"></script>
+    </body>
+</html>

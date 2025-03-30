@@ -1,0 +1,196 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; 
+    margin: 0; /* body의 여백 제거*/
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    color: darkgray;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 80px;
+    border: none;
+    border-radius: 0px;
+    font-size: 100px;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+    background-color: #f7f7f7;
+}
+
+#side_menu {
+  position: fixed;
+  top: 0;
+  left : -900px;
+  width: 900px;
+  height: 100%;
+  background: #f7f7f7;
+  border:1px;
+  transition: left 0.3s ease;
+  padding-top: 60px;
+}
+  
+#close_menu {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 100px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#profile_img {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100px;
+  left: 10%;
+  display: inline-block;
+}
+
+#before_login_text {
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+  color: darkgray;
+  font-size: 30px;
+  display: inline-block;
+  margin-left: 30%;
+  text-decoration: underline;
+}
+
+#my_info {
+  margin-top: 10px;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  background-color: #007BFF;
+  border: none;
+}
+
+#my_page {
+  margin-top: 10px;
+  color: #f7f7f7;
+  height: 80%;
+  width: 40%;
+  display: inline-block;
+  background-color: #007BFF;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+#bookmark {
+  color: #f7f7f7;
+  height: 80%;
+  width: 40%;
+  margin-left: 5%;
+  display: inline-block;
+  background-color: #007BFF;
+  border: 3px solid #f7f7f7;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+#headline {
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    display: inline-block;
+    height: 70px;
+}
+
+#categories {
+    text-align: center;
+}
+
+#hr_width80 {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.looks {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+#extra_menu {
+    background-color: lightgray;
+}
+
+#line1 {
+    font-size : 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#line1:hover {
+    text-decoration: underline;
+}
+
+#line2 {
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#line2:hover {
+    text-decoration: underline;
+}
+
+.center_align {
+    display: flex;
+    justify-content: center;
+}
+
+.categories_2 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+#ad_1 { 
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin-left: auto;
+    margin-top: 10px;
+}
+
+#ad_2 { 
+    display: inline-block; 
+    width: 30%;
+    height: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+#ad_3 { 
+    display: inline-block; 
+    width: 30%;
+    height: 300px;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+#event_1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+    
